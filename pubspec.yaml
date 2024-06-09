@@ -1,0 +1,19 @@
+name: check
+description: Check is an essential tool for developers aiming to maintain the quality and organization of their software projects. This software automatically scans the source code for comments containing the terms "check", "todo", or "fix".
+version: 0.0.1
+repository: https://github.com/Jeilson-Dev/code_guard
+
+environment:
+  sdk: ^3.1.5
+
+# Add regular dependencies here.
+dependencies:
+  cli_launcher: ^0.3.1
+  path: ^1.8.0
+  yaml: ^3.1.2
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+executables:
+  check:
