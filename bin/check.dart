@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:check/code_guard.dart';
+import 'package:code_guard/code_guard.dart';
 import 'package:path/path.dart';
 import 'package:yaml/yaml.dart';
 

@@ -3,7 +3,7 @@ library;
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:check/logger.dart';
+import 'package:code_guard/logger.dart';
 
 bool kDebugMode = false;
 

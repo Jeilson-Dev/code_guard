@@ -1,4 +1,4 @@
-import 'package:check/code_guard.dart';
+import 'package:code_guard/code_guard.dart';
 
 enum LoggerType {
   debug,
