@@ -1,0 +1,24 @@
+patterns:
+  - "// fix:"
+  - "// todo:"
+
+targetFileTypes:
+  - dart
+
+explicitIgnoreSubType:
+  - .gen.dart
+  - .freezed.dart
+
+explicitIgnoreFolder:
+  - /.dart_tool
+  - /.git
+  - /.vscode
+  - /.idea
+  - /build
+  - /android
+  - /ios
+  - /windows
+  - /web
+  - /linux
+  - /macos
+  - /.fvm

@@ -51,6 +51,22 @@ From you root project run:
 check
 ```
 
+When the `check` command has finished, a message will inform you what's happen:
+If no match was found it will return a success code($? >> 0) to the system and display a message:
+
+`Success, no matches found!`
+
+If it found one or more patterns, the `check` command will exit wit a error code ($? >> 1) and present a detailed message from where was found the patterns:
+
+```bash
+File: /Users/JsonDev/Developer/flutter/my_tool/lib/components/badges/car_badge_widget.dart:26
+} // FIX: remove the function of refresh screen
+
+File: /Users/JsonDev/Developer/flutter/my_tool/lib/components/badges/car_badge_widget.dart:36
+} // FIX: rename this function to a better name
+
+```
+
 This will read the `yaml` file to get the settings and search for the patterns defined using the specified settings.
 
 ## Debug

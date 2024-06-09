@@ -58,6 +58,8 @@ class CodeGuard {
         if (hasMatcher) {
           matches.add('File: ${file.path}:$lineCount');
           matches.add(line.trim());
+          matches.add('');
+
           Logger.w(message: 'Found matcher in ${file.path} line: $lineCount -  ${line.trim()}');
         }
         lineCount++;
