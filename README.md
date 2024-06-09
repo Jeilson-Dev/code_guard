@@ -66,3 +66,32 @@ It will print the folders that are been scanned and the patterns found.
 ## Some usage
 
 One case where it's helpful is when you are refactoring the code and you must avoid push commented code, so you can put a comment like `// fix: need fix this before push because ...` and run the `push` command with the `check` command first, like `check && git push`.
+
+## Complete check.yaml example
+
+```yaml
+patterns:
+  - "// fix:"
+  - "// todo:"
+
+targetFileTypes:
+  - dart
+
+explicitIgnoreSubType:
+  - .gen.dart
+  - .freezed.dart
+
+explicitIgnoreFolder:
+  - /.dart_tool
+  - /.git
+  - /.vscode
+  - /.idea
+  - /build
+  - /android
+  - /ios
+  - /windows
+  - /web
+  - /linux
+  - /macos
+  - /.fvm
+```
