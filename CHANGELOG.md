@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Define stable version.
+
 ## 0.0.3
 
 - Update Readme, add check.yaml example.

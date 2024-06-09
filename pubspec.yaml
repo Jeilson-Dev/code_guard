@@ -1,6 +1,6 @@
 name: code_guard
 description: Code Guard is an essential tool for developers aiming to maintain the quality and organization of their software projects. This software automatically scans the source code for comments containing the terms "check", "todo", or "fix".
-version: 0.0.3
+version: 1.0.0
 repository: https://github.com/Jeilson-Dev/code_guard
 
 environment:
